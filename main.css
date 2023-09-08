@@ -1,11 +1,15 @@
 body {
   background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: auto;
-  height: auto;
-  background-color: red;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(146, 63, 63);
 }
 
 .nav {
@@ -14,11 +18,71 @@ body {
   left: 0px;
   width: 100%;
   height: 70px;
+    /* background-color: black; */
+}
+
+.nav div,img,a{
+  float: left;
+  margin-right: 10px;
+  line-height: 70px;
+  text-align: center;
+}
+.nav input,p{
+  float: right;
+  line-height: 70px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  }
+
+.nav img {
+  width: 150px;
+  height: 100%;
+}
+/* Картинка через див */
+/* .nav-logo {
+  width: 150px;
+  height: 100%; */
+/* z-index: 100; */
+/* background-color: aquamarine; */
+/* } */
+/* .nav-logo img{
+  width: 100%;
+  height: 100%;
+} */
+/* _____________________________________________ */
+
+.nav-infoservis {
+  width: 150px;
+  height: 100%;
   background-color: black;
 }
-.main {
-  color: blue;
 
-  width: 1000px;
-  height: 500px;
+.nav-locationwork{
+  width: 150px;
+  height: 100%;
+  background-color: black;
+}
+.info-servis {
+  background-color: rgb(18, 18, 172);
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+}
+
+.location-work {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+.examples-work {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.form-records {
+  width: 100%;
+  height: 100px;
+  background-color: darkturquoise;
 }
